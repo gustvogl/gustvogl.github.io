@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome | Desenvolvedor Front-End</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- 🔥 NOVAS LIBS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">Portfólio.</div>
+    <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+    </ul>
+    <div class="menu-toggle" id="mobile-menu">
+        <i class="ph ph-list"></i>
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-card" data-aos="zoom-in">
+        <div class="image-wrapper">
+            <img src="img/WhatsApp Image 2026-01-18 at 22.29.03.jpeg" alt="Foto de Perfil" class="foto">
+        </div>
+
+        <h1>Gustavo Luís Ferreira Silva</h1>
+
+        <!-- 🔥 TYPED AQUI -->
+        <h3><span class="auto-type"></span></h3>
+
+        <p>
+            Transformo ideias em interfaces modernas, responsivas e intuitivas. 
+            Focado em criar experiências web de alta performance.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projetos" class="btn primary">Ver Projetos</a>
+            <a href="https://wa.me/5515997962450" class="btn secondary">Fale Comigo</a>
+        </div>
+    </div>
+</header>
+
+<section class="carousel-section" data-aos="fade-up">
+    <p class="section-subtitle">Galeria de Destaques</p>
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <img src="img/image.png" alt="Projeto 1">
+            <img src="img/Captura de tela 2026-01-30 135925.png" alt="Projeto 2">
+            <img src="img/Captura de tela 2026-01-30 140302.png" alt="Projeto 3">
+            <img src="img/Captura de tela 2026-01-30 140436.png" alt="Projeto 4">
+
+            <img src="img/image.png" alt="Projeto 1">
+            <img src="img/Captura de tela 2026-01-30 135925.png" alt="Projeto 2">
+            <img src="img/Captura de tela 2026-01-30 140302.png" alt="Projeto 3">
+            <img src="img/Captura de tela 2026-01-30 140436.png" alt="Projeto 4">
+        </div>
+    </div>
+</section>
+
+<section id="sobre" class="sobre" data-aos="fade-up">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou estudante de Desenvolvimento de Sistemas e entusiasta da tecnologia. 
+            Meu foco atual é dominar o ecossistema JavaScript e criar soluções que resolvam problemas reais.
+            Estou sempre em busca de novos desafios para aprimorar minhas habilidades em UI/UX e código limpo.
+        </p>
+    </div>
+</section>
+
+<section id="habilidades" class="habilidades" data-aos="fade-up">
+    <h2>Tech Stack</h2>
+    <div class="icons">
+        <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><span>HTML5</span></div>
+        <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><span>CSS3</span></div>
+        <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><span>JavaScript</span></div>
+        <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><span>Git</span></div>
+        <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="invert-icon"><span>GitHub</span></div>
+        <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"><span>Figma</span></div>
+    </div>
+</section>
+
+<section id="projetos" class="projetos" data-aos="fade-up">
+    <h2>Projetos Recentes</h2>
+    <div class="grid">
+
+        <!-- 🔥 CARDS COM AOS -->
+        <div class="card" data-aos="zoom-in">
+            <div class="video-container">
+                <video src="img/Gravando 2026-01-30 140820.mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="card-content">
+                <h3>NINTENDO POKEMON</h3>
+                <p>Uma página de diversos pokemons com o tema de Nintendo Switch.</p>
+                <div class="tags"><span>HTML</span><span>CSS</span></div>
+                <div class="links">
+                    <a href="https://gustvogl.github.io/pokemon_final/index.html" class="btn-sm">Demo</a>
+                    <a href="https://github.com/gustvogl/pokemon_final" class="btn-sm outline">Código</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="video-container">
+                <video src="img/Gravando 2026-01-30 141637.mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="card-content">
+                <h3>GALERIA DE VIDEOS</h3>
+                <p>Uma galeria de diversos videos do Homem-Aranha do youtube.</p>
+                <div class="tags"><span>html</span><span>css</span><span>js</span></div>
+                <div class="links">
+                    <a href="https://gustvogl.github.io/Galeria-de-V-deos/" class="btn-sm">Demo</a>
+                    <a href="https://github.com/gustvogl/Galeria-de-V-deos" class="btn-sm outline">Código</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-aos="zoom-in">
+            <div class="video-container">
+                <video src="img/20260130-1810-31.5742008.mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="card-content">
+                <h3>Sabores da Tailândia</h3>
+                <p>Site que apresenta a receita tailandesa Tom Yum Goong.</p>
+                <div class="tags"><span>JavaScript</span><span>html</span></div>
+                <div class="links">
+                    <a href="https://gustvogl.github.io/aventura_culin-ria/" class="btn-sm">Demo</a>
+                    <a href="https://github.com/gustvogl/aventura_culin-ria" class="btn-sm outline">Código</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Gustavo Luis Ferreira Silva. Todos os direitos reservados.</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/gustavo-luis-a66948245/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="https://github.com/gustvogl" target="_blank"><i class="ph ph-github-logo"></i></a>
+            <a href="https://wa.me/5515997962450" target="_blank"><i class="ph ph-whatsapp-logo"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
